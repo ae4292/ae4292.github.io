@@ -11,35 +11,36 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Analytics, University of California, Berkeley, 2024
+* B.A. in Economics, University of California, Berkeley, 2023
+* B.A. in Data Science, University of California, Berkeley, 2023
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
+* Economist Apprentice, Present
+  * Amazon
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * GitHub University
+* Analytics Ambassador, 
+  * UC Berkeley
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * GitHub University
+* Tax Services Intern
+  * Andersen
   * Duties included: Tagging issues
   * Supervisor: Professor Git
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
+* AWS
+* Python
+  * PyTorch
+  * Sc
   * Sub-skill 2.3
-* Skill 3
+* SQL
+* R
 
 Publications
 ======
