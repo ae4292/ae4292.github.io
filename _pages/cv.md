@@ -30,7 +30,7 @@ Work experience
 * Tax Services Intern
   * Andersen
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Supervisor: Professor
   
 Skills
 ======
