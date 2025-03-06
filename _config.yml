@@ -13,9 +13,9 @@ title                    : "Adrian Enders / Portfolio"
 title_separator          : "-"
 name                     : &name "Adrian Enders"
 description              : &description "personal description"
-url                      : https://ae4292.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://ae4292.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "PhD_Portfolio_Site.github.io"
+repository               : "ae4292/PhD_Portfolio_Site.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
