@@ -6,9 +6,9 @@
 
 main:      
     
-  - title: "Portfolio"
+  - title: "Resume / CV"
     url: /portfolio/
     
-  - title: "CV"
+  - title: "References"
     url: /cv/
   
