@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Portfolio Site"
+title                    : "About Me"
 title_separator          : "-"
 name                     : &name "Adrian Enders"
 description              : &description "Aspriring Finance and Econometrics PhD Student"
@@ -59,7 +59,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # adrian-enders-cal
+  linkedin         : "adrian-enders-cal"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
