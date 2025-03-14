@@ -9,11 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-Davide Pettenuzzo
+**Davide Pettenuzzo**
 - Professor of Financial Econometrics at Brandeis International Business School
 - Amazon Scholar
 
-Keyi Zhang
+**Keyi Zhang**
 - Economist Manager at Amazon
 
 
