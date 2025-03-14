@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "References"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,36 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* M.S. in Analytics, University of California, Berkeley, Fall 2023 - 2024
-  * IEOR Merit Scholarship
-* B.A. in Economics, University of California, Berkeley, Fall 2020 - Spring 2023
-* B.A. in Data Science, University of California, Berkeley, Fall 2020 -  Spring 2023
+Davide Pettenuzzo
+- Professor of Financial Econometrics at Brandeis International Business School
+- Amazon Scholar
 
-Work experience
-======
-* Economist Apprentice, Summmer 2024 - Present
-  * Amazon
+Keyi Zhang
+- Economist Manager at Amazon
 
-* Analytics Ambassador, Fall 2023 - Summer 2024
-  * UC Berkeley
 
-* Tax Services Intern, Summer 2022
-  * Andersen
- 
-* Assistant Rowing Coach, Summer 2022
-  * Bair Island Aquatic Center
-  
-Skills
-======
-* AWS
-* Python
-* SQL
-* R
-* Java
-  
-Athletics and Leadership
-======
-* Cal Men's Rowing 2020-2024
-  * Persistence Award
