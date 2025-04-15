@@ -13,4 +13,4 @@ Some PhD Dissertation ideas that have sparked my interest are a foundational tim
 
 Outside of work I love cycling around Lake Washington, cooking new recipes, and yoga from time to time.
 
-Please reach out to aenders4292[at]gmail[dot]com if you have any questions or have some good book recs!
+Please reach out to aenders4292 [at] gmail.com if you have any questions or have some good book recs!
