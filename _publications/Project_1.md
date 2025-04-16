@@ -2,7 +2,7 @@
 title: "Generative AI for Financial Time Series"
 collection: publications
 category: manuscripts
-permalink: /publication/Project_1
+permalink: https://github.com/ae4292/IEOR-223-Final-Project/tree/main
 date: 2024-05-10
 paperurl: 'https://github.com/ae4292/IEOR-223-Final-Project/tree/main'
 ---
