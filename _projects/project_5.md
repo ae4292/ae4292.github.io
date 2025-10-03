@@ -1,12 +1,9 @@
 ---
-title: "Image Forgery Detection with Deep Learning Methods"
+title: "A Comparative Analysis of Machine Learning Outlier Detection Methods for Robust Causal Inference"
 collection: projects
-link: https://drive.google.com/file/d/1IjYonjRnvXJ7a6gzUBsZkOk6sv5lmTHU/view?usp=sharing
+link: https://github.com/ae4292/Personal-Projects/blob/59865ee8e59744a78de0ce92f7c14596bccdada7/Outlier-Detection/Outlier%20Detection%20Final.pdf
 date: 2025-10-01
 ---
 
-Images are a primary source of information and evidence across various fields. However, the increasing accessibility
-of sophisticated image editing tools and AI algorithms has made it easier to create and disseminate falsified and
-manipulated images. These images can have significant implications as they may deceive the public, misinform society,
-compromise the security and integrity of individuals and institutions, and undermine trust in digital media. Therefore,
-developing effective methods to detect and classify forged and manipulated images is of paramount importance.
+We implement and compare novel outlier detection methods to remove outliers and see how they affect causal impact estimates. This study evaluates these models’ accuracy in outlier detection and their impact on treatment effect estimation with simulated and real-world data. We highlight outlier solutions that minimize removing observations, while also preserving accuracy in causal impact analysis. Specifically, we find that ensemble approaches of outlier detection methods are the most effective at obtaining accurate treatment effect estimates, while also minimizing the removal of observations in high-dimensional data.
+
