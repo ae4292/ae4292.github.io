@@ -9,19 +9,21 @@ redirect_from:
 
 {% include base_path %}
 
+**Allan Timmermann**
+- Distinguished Professor of Finance at University of California, San Diego
+- Amazon Scholar
+- atimmermann [at] ucsd.edu
+  
 **Davide Pettenuzzo**
 - Professor of Financial Econometrics at Brandeis International Business School
 - Amazon Scholar
 - dpettenu [at] brandeis.edu
   
-**Xin Guo**
-- Coleman Fung Chair Professor in Financial Modeling
-  Department of Industrial Engineering and Operations Research, UC Berkeley
+**Thibaut Mastrolia**
+- Assistant Professor in Industrial Engineering and Operations Research, UC Berkeley
 - Amazon Scholar
-- xinguo [at] ieor.berkeley.edu
+- mastrolia [at] ieor.berkeley.edu
   
 **Keyi Zhang**
 - Economist Manager at Amazon
 - keyizhan [at] amazon.com
-
-
