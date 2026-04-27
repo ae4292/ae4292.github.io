@@ -4,11 +4,14 @@
 # links. Removing a link prevents it from showing in the header, but does not
 # prevent it from being included in the site.
 
-main:      
-    
+main:
+
+  - title: "Research"
+    url: /Research/
+
   - title: "Resume / CV"
     url: /Resume/
-    
+
   - title: "References"
     url: /References/
 

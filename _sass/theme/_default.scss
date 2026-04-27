@@ -3,7 +3,7 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #405f78;
+$gray                       : #1e3a5f;
 $dark-gray                  : mix(#000, $gray, 40%);
 $darker-gray                : mix(#000, $gray, 60%);
 $light-gray                 : mix(#fff, $gray, 50%);
@@ -34,11 +34,11 @@ $sidebar-screen-min-width   : 1024px;
     --global-code-background-color      : #fcfcfc;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #2f7f93;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
+    --global-link-color                 : #1a56a0;
+    --global-link-color-hover           : mix(#000, #1a56a0, 25%);
+    --global-link-color-visited         : mix(#fff, #1a56a0, 25%);  
+    --global-masthead-link-color        : rgba(255, 255, 255, 0.9);
+    --global-masthead-link-color-hover  : #ffffff;    
     --global-text-color                 : #{$dark-gray};
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};

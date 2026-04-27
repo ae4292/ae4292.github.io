@@ -1,17 +1,26 @@
 ---
 permalink: /
-title: "Welcome to My Page!"
+title: "Adrian Enders"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Here you can find some of my previous work and learn a little more about me.
+I am an incoming PhD student in Finance at [London Business School](https://www.london.edu/), joining in Fall 2026. I am currently an Economist Apprentice at Amazon, where I collaborate with Amazon Scholars — academic researchers bridging industry and academia — which has sharpened my focus on rigorous empirical methods. My research interests span **asset pricing**, **deep learning for finance**, **causal inference**, and **corporate finance**.
 
-I'm interested in pursuing research in Asset Pricing, Deep Learning, and Causal Inference in Corporate Finance. I am currently interested in addressing the limitations of asset pricing when it comes to predicting idiosyncratic price jumps.
+## Research Interests
 
-When I'm not working, you can find me cycling or running around Washington, experimenting with new recipes in the kitchen, and practicing yoga.
+- **Asset Pricing** — idiosyncratic price jump prediction, factor models, financial anomalies
+- **Deep Learning for Finance** — generative models for financial time series, representation learning
+- **Causal Inference** — treatment effect estimation, outlier-robust methods, observational studies
+- **Corporate Finance** — empirical corporate finance, firm behavior, capital structure
+
+## Education
+
+- **PhD in Finance**, London Business School *(incoming)*
+- **B.S. in Industrial Engineering and Operations Research**, UC Berkeley
+
+Outside of research, you can find me cycling or running, experimenting with new recipes in the kitchen, and practicing yoga.
 
 Feel free to reach out at aenders4292 [at] gmail.com for questions, collaborations, or paper recommendations!
-

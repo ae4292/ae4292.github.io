@@ -95,12 +95,13 @@
 
   img {
     max-width: 175px;
-    border-radius: 50%;
+    border-radius: 8px;
     max-height: 175px;
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid var(--global-border-color);
+      padding: 0;
+      border: none;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
     }
   }
 }
