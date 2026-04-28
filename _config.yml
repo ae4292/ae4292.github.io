@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "About Me"
+title                    : "Adrian Enders"
 title_separator          : "-"
 name                     : &name "Adrian Enders"
-description              : &description "PhD Student in Finance, London Business School"
+description              : &description "Incoming PhD Student in Finance, London Business School"
 url                      : https://ae4292.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ae4292/ae4292.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "IMG_7462.jpeg"
   name             : "Adrian Enders"
   pronouns         : # example: "she/her"  
-  bio              : "Incoming PhD Student in Finance, London Business School | Economist Apprentice at Amazon"
+  bio              : "Incoming PhD Student in Finance, London Business School"
   location         : "Seattle, WA"
   employer         : "Amazon"
   uri              : # URL
