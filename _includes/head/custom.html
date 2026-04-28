@@ -22,4 +22,80 @@
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+<style>
+/* Profile hero */
+.profile-hero {
+  display: flex;
+  align-items: flex-start;
+  gap: 3rem;
+  padding: 3rem 2rem 2.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e2e8f0;
+}
+.profile-hero__photo img {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+  flex-shrink: 0;
+  display: block;
+}
+.profile-hero__info { flex: 1; padding-top: 0.25rem; }
+.profile-hero__name {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #1e3a5f;
+  margin: 0 0 0.4rem;
+  line-height: 1.1;
+}
+.profile-hero__role { font-size: 1rem; color: #444; margin: 0 0 0.3rem; }
+.profile-hero__location { font-size: 0.875rem; color: #777; margin: 0 0 1.4rem; }
+.profile-hero__links { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.profile-link {
+  display: inline-block;
+  padding: 0.3rem 0.85rem;
+  border: 1.5px solid #1e3a5f;
+  border-radius: 4px;
+  color: #1e3a5f !important;
+  text-decoration: none !important;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.profile-link:hover { background: #1e3a5f; color: #fff !important; }
+
+/* Full-width layout — override Susy grid when sidebar is absent */
+#main .page,
+#main .archive,
+.page--fullwidth {
+  float: none !important;
+  width: 100% !important;
+  max-width: 900px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  -webkit-margin-before: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .profile-hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    gap: 1.5rem;
+  }
+  .profile-hero__photo img { width: 160px; height: 160px; }
+  .profile-hero__links { justify-content: center; }
+  #main .page, #main .archive, .page--fullwidth {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+</style>
+
 <!-- end custom head snippets -->

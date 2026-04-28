@@ -1,8 +1,8 @@
 ---
-layout: archive
+layout: single
 title: "References"
 permalink: /References/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
