@@ -12,25 +12,21 @@ redirect_from:
 <div class="reference-item">
   <h3>Allan Timmermann</h3>
   <p class="ref-title">Distinguished Professor of Finance, UC San Diego &nbsp;·&nbsp; Amazon Scholar</p>
-  <p class="ref-contact">atimmermann [at] ucsd.edu</p>
 </div>
 
 <div class="reference-item">
   <h3>Davide Pettenuzzo</h3>
   <p class="ref-title">Professor of Financial Econometrics, Brandeis International Business School &nbsp;·&nbsp; Amazon Scholar</p>
-  <p class="ref-contact">dpettenu [at] brandeis.edu</p>
 </div>
 
 <div class="reference-item">
   <h3>Thibaut Mastrolia</h3>
   <p class="ref-title">Assistant Professor, Industrial Engineering and Operations Research, UC Berkeley &nbsp;·&nbsp; Amazon Scholar</p>
-  <p class="ref-contact">mastrolia [at] ieor.berkeley.edu</p>
 </div>
 
 <div class="reference-item">
   <h3>Keyi Zhang</h3>
   <p class="ref-title">Economist Manager, Amazon</p>
-  <p class="ref-contact">keyizhan [at] amazon.com</p>
 </div>
 
 </div>
