@@ -27,8 +27,6 @@ My research interests are in asset pricing, financial econometrics, causal infer
 
 Outside of research, I rowed for Cal Men's Rowing (National Champions 2022 & 2023) and now spend my time cycling around Washington, experimenting in the kitchen, and practicing yoga.
 
-Feel free to reach out at aenders [at] london.edu.
-
 <style>
 .education-list { margin: 0.4rem 0 1.5rem; }
 .education-item {

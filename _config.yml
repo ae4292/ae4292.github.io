@@ -13,7 +13,7 @@ title                    : "Adrian Enders"
 title_separator          : "-"
 name                     : &name "Adrian Enders"
 description              : &description "Incoming PhD Student in Finance, London Business School"
-url                      : https://ae4292.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://ae4292.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ae4292/ae4292.github.io"
 
@@ -26,10 +26,10 @@ author:
   name             : "Adrian Enders"
   pronouns         : # example: "she/her"  
   bio              : "Incoming PhD Student in Finance, London Business School"
-  location         : "Seattle, WA"
-  employer         : "Amazon"
+  location         : # example: "Seattle, WA"
+  employer         : # example: "Amazon"
   uri              : # URL
-  email            : "aenders4292@gmail.com" 
+  email            : "aenders@london.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -246,7 +246,7 @@ defaults:
       comment: true
   - scope:
       path: ""
-      type: project
+      type: projects
     values:
       layout: single
       author_profile: true
