@@ -12,13 +12,9 @@ layout: default
     <div class="profile-hero__info">
       <h1 class="profile-hero__name">{{ site.author.name }}</h1>
       <p class="profile-hero__role">{{ site.author.bio }}</p>
-      <p class="profile-hero__location">
-        <i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ site.author.location }} &nbsp;·&nbsp;
-        <i class="fa-solid fa-building-columns" aria-hidden="true"></i> {{ site.author.employer }}
-      </p>
       <div class="profile-hero__links">
         {% if site.author.email %}<a href="mailto:{{ site.author.email }}" class="profile-link">Email</a>{% endif %}
-        <a href="{{ base_path }}/files/Adrian_Enders_Resume.docx.pdf" class="profile-link profile-link--primary" target="_blank">CV</a>
+        <a href="{{ base_path }}/files/Adrian_Enders_Resume.docx.pdf" class="profile-link" target="_blank">CV</a>
         {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" class="profile-link" target="_blank">GitHub</a>{% endif %}
         {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" class="profile-link" target="_blank">LinkedIn</a>{% endif %}
       </div>
