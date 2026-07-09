@@ -11,9 +11,9 @@ author_profile: false
 {% for paper in working_papers %}
 **{{ paper.title }}**
 <br>{{ paper.authors }}
-<br>*{{ paper.venue }}*{% if paper.venue_date %}, {{ paper.venue_date }}{% endif %}
-{% if paper.status %}<br><span class="paper-status">{{ paper.status }}</span>{% endif %}
-{% if paper.paperurl or paper.slidesurl %}<br>{% if paper.paperurl %}[[Paper]]({{ paper.paperurl }}){% endif %}{% if paper.slidesurl %} [[Slides]]({{ paper.slidesurl }}){% endif %}{% endif %}
+<br>*{{ paper.venue }}*{% if paper.venue_date %}, {{ paper.venue_date }}{% endif -%}
+{%- if paper.status %}<br><span class="paper-status">{{ paper.status }}</span>{% endif -%}
+{%- if paper.paperurl or paper.slidesurl %}<br>{% if paper.paperurl %}[[Paper]]({{ paper.paperurl }}){% endif %}{% if paper.slidesurl %} [[Slides]]({{ paper.slidesurl }}){% endif %}{% endif %}
 
 {{ paper.content }}
 
