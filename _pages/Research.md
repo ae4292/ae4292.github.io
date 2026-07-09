@@ -5,6 +5,8 @@ permalink: /Research/
 author_profile: false
 ---
 
+<p class="page-lead">Working papers and ongoing research in asset pricing, financial econometrics, and causal inference.</p>
+
 ## Working Papers
 
 {% assign working_papers = site.publications | where: "category", "working_paper" | sort: "date" | reverse %}
@@ -17,5 +19,12 @@ author_profile: false
 
 {{ paper.content }}
 
-{% unless forloop.last %}---{% endunless %}
+{% unless forloop.last %}
+---
+{: .research-divider}
+{% endunless %}
 {% endfor %}
+
+<style>
+.research-divider { margin: 1.4rem 0; border: 0; border-top: 1px solid var(--global-border-color); }
+</style>
