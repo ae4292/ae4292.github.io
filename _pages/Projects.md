@@ -7,7 +7,7 @@ author_profile: false
 
 {% include base_path %}
 
-<p class="page-lead">Applied projects in machine learning, causal inference, and financial modeling.</p>
+<div class="page-divider"></div>
 
 {% for post in site.projects reversed %}
   {% include archive-single.html %}

@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-<p class="page-lead">Faculty and professional contacts who can speak to my research and work.</p>
+<div class="page-divider"></div>
 
 <div class="reference-list">
 
