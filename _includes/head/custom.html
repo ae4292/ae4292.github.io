@@ -27,7 +27,7 @@
   display: flex;
   align-items: flex-start;
   gap: 3rem;
-  padding: 3rem 2rem 2.5rem;
+  padding: 2.25rem 2rem 1.75rem;
   max-width: 900px;
   margin: 0 auto;
   border-bottom: 1px solid #e2e8f0;
@@ -45,7 +45,7 @@
 .profile-hero__name {
   font-size: 2.4rem;
   font-weight: 700;
-  color: #1e3a5f;
+  color: var(--global-base-color);
   margin: 0 0 0.4rem;
   line-height: 1.1;
 }
@@ -54,22 +54,40 @@
 .profile-link {
   display: inline-block;
   padding: 0.3rem 0.85rem;
-  border: 1.5px solid #1e3a5f;
+  border: 1.5px solid var(--global-base-color);
   border-radius: 4px;
-  color: #1e3a5f !important;
+  color: var(--global-base-color) !important;
   text-decoration: none !important;
   font-size: 0.85rem;
   font-weight: 500;
   transition: background 0.15s ease, color 0.15s ease;
 }
-.profile-link:hover { background: #1e3a5f; color: #fff !important; }
+.profile-link:hover { background: var(--global-base-color); color: #fff !important; }
 
-/* Accent (LBS red) — used sparingly for status labels */
+/* Accent (LBS red) — used sparingly for status labels and section-heading marks */
 .paper-status {
   display: inline-block;
-  color: #C8102E;
+  color: var(--accent-color);
   font-style: italic;
   font-weight: 500;
+}
+
+/* Small accent rule under H2 section headings within page content, e.g.
+   "Education", "Working Papers" — repeats the LBS red as a consistent brand mark */
+.page__content h2 {
+  position: relative;
+  padding-bottom: 0.6rem;
+  margin-bottom: 1.1rem;
+}
+.page__content h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 42px;
+  height: 3px;
+  border-radius: 2px;
+  background: var(--accent-color);
 }
 
 /* Full-width layout — override Susy grid when sidebar is absent */
@@ -87,7 +105,8 @@
 }
 
 .page--fullwidth {
-  padding-top: 2.5rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1rem;
 }
 
 /* Divider under the page title on inner pages */
@@ -104,7 +123,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 2rem 1.5rem;
+    padding: 1.75rem 1.5rem;
     gap: 1.5rem;
   }
   .profile-hero__photo img { width: 160px; height: 160px; }

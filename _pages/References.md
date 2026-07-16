@@ -43,7 +43,7 @@ redirect_from:
 .reference-item h3 {
   margin: 0 0 0.3rem;
   font-size: 1.05rem;
-  color: #1e3a5f;
+  color: var(--global-base-color);
 }
 .ref-title { margin: 0 0 0.25rem; font-size: 0.9rem; color: #555; }
 </style>

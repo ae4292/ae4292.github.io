@@ -29,5 +29,5 @@ author_profile: false
 
 <style>
 .research-divider { margin: 1.4rem 0; border: 0; border-top: 1px solid var(--global-border-color); }
-.paper-title { margin: 0 0 0.3rem; font-size: 1.05rem; color: #1e3a5f; }
+.paper-title { margin: 0 0 0.3rem; font-size: 1.05rem; color: var(--global-base-color); }
 </style>

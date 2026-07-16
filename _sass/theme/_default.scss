@@ -29,14 +29,15 @@ $sidebar-screen-min-width   : 1024px;
 /* Default light theme for the site */
 :root {
     --global-base-color                 : #{$gray};
+    --accent-color                      : #C8102E; /* LBS red — used sparingly for accents/status */
     --global-bg-color                   : #fafafa;
     --global-border-color               : #{$lighter-gray};
     --global-code-background-color      : #fcfcfc;
     --global-code-text-color            : #{$darker-gray};
     --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #1a56a0;
-    --global-link-color-hover           : mix(#000, #1a56a0, 25%);
-    --global-link-color-visited         : mix(#fff, #1a56a0, 25%);  
+    --global-link-color                 : #{$gray};
+    --global-link-color-hover           : var(--accent-color);
+    --global-link-color-visited         : mix(#fff, $gray, 25%);
     --global-masthead-link-color        : rgba(255, 255, 255, 0.9);
     --global-masthead-link-color-hover  : #ffffff;    
     --global-text-color                 : #{$dark-gray};
