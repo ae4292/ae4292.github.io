@@ -1,11 +1,11 @@
 ---
-title: "Time-Varying Embeddings of Hedge Fund Holdings"
+title: "Jump Comovement in Industry and Ownership Networks"
 collection: publications
 category: working_paper
-date: 2026-01-01
+date: 2026-09-01
 authors: "Adrian Enders"
-venue: "Working Paper, 2026"
-status: "Draft available upon request"
+venue: "Working Paper, September 2026"
+status: "Preliminary, do not cite"
 ---
 
-Quarterly 13F filings reveal how hedge funds change their positions. This paper represents those changes with a 16-dimensional embedding and uses Partial Least Squares to study their relationship with post-filing returns and realized volatility. The analysis covers 103,663 stock-quarter observations from 2005 to 2024. Return predictability is strong in sample but does not produce reliable out-of-sample alpha. A filing-date event study finds that stocks with large but ambiguous ownership changes experience a sharp increase in trading volume without a corresponding price move, followed by higher realized volatility over the next month. These results suggest that disclosed repositioning conveys information about volatility that persists beyond the filing date, while its directional return information does not reliably support out-of-sample alpha.
+Negative price jumps that a four-factor model does not explain (residual jumps) are not independent across firms. A stock is more likely to suffer one in weeks when more of its industry peers do and, separately, when more of the stocks closest to it in a holdings-based embedding (stocks held by the same investors) do. The comovement arrives on the same day and is strongest among the most similar stocks. Identified news and earnings account for little of it, and we find no evidence that fire sales do. An industry factor that the four-factor model omits explains part of the industry pattern and leaves the ownership pattern intact. In sample, the holdings-based measure captures comovement beyond firm characteristics, although characteristics locate it at least as sharply. A correction for the downward bias that arises when a stock is excluded from its own peer average, which works against finding comovement, raises both estimates. The result bears on how tail risk is measured and diversified.

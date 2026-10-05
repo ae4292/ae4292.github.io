@@ -7,7 +7,7 @@ author_profile: false
 
 <div class="page-divider"></div>
 
-My research uses empirical and computational methods to study financial markets and causal effects. Current work examines how information in hedge fund holdings is reflected in returns and volatility, and how outlier detection affects causal estimates.
+My current work examines how negative price jumps cluster across industry and shared-ownership networks, alongside methods for robust causal inference.
 
 ## Working Papers
 
