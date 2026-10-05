@@ -234,7 +234,7 @@
         left: 0;
         bottom: 0;
         height: 2px;
-        background: rgba(255, 255, 255, 0.6);
+        background: var(--global-base-color);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
