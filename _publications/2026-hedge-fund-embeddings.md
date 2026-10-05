@@ -4,7 +4,7 @@ collection: publications
 category: working_paper
 date: 2026-09-01
 authors: "Adrian Enders"
-venue: "Working Paper, September 2026"
+venue: "Working Paper"
 status: "Preliminary, do not cite"
 ---
 

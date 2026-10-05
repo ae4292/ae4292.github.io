@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Finance at [London Business School](https://www.london.edu/). From June 2024 to July 2026, I was an Economist Apprentice at Amazon, where I worked with Amazon Scholars on forecasting research, studied the causal effects of new seller policies, and built AI agents to automate economic analysis.
+I am a PhD student in Finance at [London Business School](https://www.london.edu/). My research interests include asset pricing, financial econometrics, causal inference, and corporate finance. My working papers are available on the [Research](/Research/) page.
 
-Outside of research, I rowed for Cal Men's Rowing (National Champions 2022 & 2023) and now spend my time cycling around Washington, experimenting in the kitchen, and practicing yoga.
+Before my PhD, I was an Economist Apprentice at Amazon, where I collaborated with Amazon Scholars on forecasting research. I also evaluated seller policies using causal inference and built AI agents for economic analysis.
 
-My research interests include asset pricing, financial econometrics, causal inference, and corporate finance. My current work studies how negative price jumps cluster across industry and shared-ownership networks, alongside methods for robust causal inference. See [Research](/Research/) for papers and details.
+Outside research, I enjoy cycling, cooking, and yoga. I previously rowed for Cal Men's Rowing (national champions in 2022 and 2023).
 
 ## Education
 

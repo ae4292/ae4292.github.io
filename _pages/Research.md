@@ -7,8 +7,6 @@ author_profile: false
 
 <div class="page-divider"></div>
 
-My current work examines how negative price jumps cluster across industry and shared-ownership networks, alongside methods for robust causal inference.
-
 ## Working Papers
 
 {% assign working_papers = site.publications | where: "category", "working_paper" | sort: "date" | reverse %}
