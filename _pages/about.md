@@ -18,6 +18,10 @@ Outside research, I enjoy cycling, cooking, and yoga. I previously rowed for Cal
 
 <div class="education-list">
   <div class="education-item">
+    <div class="education-item__main"><strong>PhD in Finance</strong>, London Business School</div>
+    <div class="education-item__date">Expected 2032</div>
+  </div>
+  <div class="education-item">
     <div class="education-item__main"><strong>Master of Analytics</strong> <span class="education-item__note">(IEOR Merit Scholarship)</span>, UC Berkeley</div>
     <div class="education-item__date">2023–2024</div>
   </div>
