@@ -7,6 +7,8 @@ author_profile: false
 
 <div class="page-divider"></div>
 
+My research uses empirical and computational methods to study financial markets and causal effects. Current work examines how information in hedge fund holdings is reflected in returns and volatility, and how outlier detection affects causal estimates.
+
 ## Working Papers
 
 {% assign working_papers = site.publications | where: "category", "working_paper" | sort: "date" | reverse %}

@@ -10,4 +10,4 @@ paperurl: "/files/outlier-detection-paper.pdf"
 slidesurl: "/files/outlier-detection-slides.pdf"
 ---
 
-We implement and compare novel outlier detection methods to remove outliers and see how they affect causal impact estimates. This study evaluates these models' accuracy in outlier detection and their impact on treatment effect estimation with simulated and real-world data. We highlight outlier solutions that minimize removing observations, while also preserving accuracy in causal impact analysis. Specifically, we find that ensemble approaches of outlier detection methods are the most effective at obtaining accurate treatment effect estimates, while also minimizing the removal of observations in high-dimensional data.
+This paper compares machine-learning outlier detection methods and evaluates how their use affects causal treatment-effect estimates. Using simulated and real-world data, we assess both detection accuracy and the resulting estimates. In high-dimensional settings, ensemble methods provide the most accurate treatment-effect estimates while limiting the number of observations removed.
