@@ -14,3 +14,4 @@ package-lock.json
 
 # Tool internals
 .omc/
+.omx/
