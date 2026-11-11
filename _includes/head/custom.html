@@ -69,6 +69,17 @@
   letter-spacing: 0.01em;
 }
 
+/* Abstract embedding-style scatter background (static SVG, no JavaScript).
+   Decorative: generated dots in the site's navy, with a few red "jump" points linked
+   to their nearest neighbours. Not real data. */
+body {
+  background:
+    radial-gradient(ellipse 55% 80% at 50% 45%, rgba(255, 255, 255, 0.95) 55%, rgba(255, 255, 255, 0.12) 100%),
+    url("{{ site.baseurl }}/images/embedding-bg.svg") center / cover fixed no-repeat;
+  background-color: #fff;
+}
+.page__footer { background: transparent; }
+
 /* Draft status stays secondary to the paper title. */
 .paper-status {
   display: inline-block;

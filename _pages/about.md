@@ -55,4 +55,4 @@ Outside research, I enjoy cycling, cooking, and yoga. I previously rowed for Cal
 .education-item:first-child::before { background: var(--global-base-color); }
 .education-item__note { color: #666; font-style: italic; }
 .education-item__date { color: #777; font-size: 0.9rem; white-space: nowrap; }
-</style>
+@media (max-width: 600px) { </style>
