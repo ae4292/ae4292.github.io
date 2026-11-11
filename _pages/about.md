@@ -32,14 +32,27 @@ Outside research, I enjoy cycling, cooking, and yoga. I previously rowed for Cal
 </div>
 
 <style>
-.education-list { margin: 0.4rem 0 1.5rem; max-width: 620px; }
+.education-list { margin: 0.6rem 0 1.5rem; max-width: 620px; border-left: 2px solid #d5dde8; padding-left: 1.1rem; }
 .education-item {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   gap: 1rem;
-  padding: 0.3rem 0;
+  padding: 0.4rem 0;
 }
+.education-item::before {
+  content: "";
+  position: absolute;
+  left: -1.5rem;
+  top: 0.95rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--global-base-color);
+}
+.education-item:first-child::before { background: var(--global-base-color); }
 .education-item__note { color: #666; font-style: italic; }
 .education-item__date { color: #777; font-size: 0.9rem; white-space: nowrap; }
 </style>

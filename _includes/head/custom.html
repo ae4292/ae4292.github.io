@@ -11,14 +11,10 @@
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
-<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
 
-<!-- Support for MatJax -->
-<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <style>
 /* Profile hero */
@@ -49,15 +45,29 @@
   line-height: 1.1;
 }
 .profile-hero__role { font-size: 0.95rem; color: #444; margin: 0 0 1rem; }
-.profile-hero__links { display: flex; gap: 1.1rem; flex-wrap: wrap; }
+.profile-hero__links { display: flex; gap: 0.6rem; flex-wrap: wrap; }
 .profile-link {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.8rem;
   color: var(--global-base-color);
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
-  font-size: 0.9rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
 }
-.profile-link:hover { color: var(--global-link-color-hover); }
+.profile-link:hover { background: var(--global-base-color); border-color: var(--global-base-color); color: #fff; }
+.profile-hero__tags { display: flex; gap: 0.4rem; flex-wrap: wrap; margin: 0 0 1rem; }
+.tag-chip {
+  padding: 0.15rem 0.6rem;
+  background: #eef2f7;
+  color: #334155;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+}
 
 /* Draft status stays secondary to the paper title. */
 .paper-status {
@@ -109,7 +119,7 @@
     gap: 1.5rem;
   }
   .profile-hero__photo img { width: 150px; height: 150px; }
-  .profile-hero__links { justify-content: center; }
+  .profile-hero__links, .profile-hero__tags { justify-content: center; }
   .education-item { flex-direction: column; gap: 0.15rem; }
   #main .page, #main .archive, .page--fullwidth {
     padding-left: 1.5rem;

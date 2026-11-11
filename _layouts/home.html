@@ -12,11 +12,15 @@ layout: default
     <div class="profile-hero__info">
       <h1 class="profile-hero__name">{{ site.author.name }}</h1>
       <p class="profile-hero__role">{{ site.author.bio }}</p>
+      <div class="profile-hero__tags">
+        <span class="tag-chip">Financial econometrics</span>
+        <span class="tag-chip">Machine learning in finance</span>
+      </div>
       <div class="profile-hero__links">
-        {% if site.author.email %}<a href="mailto:{{ site.author.email }}" class="profile-link">Email</a>{% endif %}
-        <a href="{{ base_path }}/files/Adrian_Enders_CV.pdf" class="profile-link" target="_blank">CV</a>
-        {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" class="profile-link" target="_blank">GitHub</a>{% endif %}
-        {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" class="profile-link" target="_blank">LinkedIn</a>{% endif %}
+        {% if site.author.email %}<a href="mailto:{{ site.author.email }}" class="profile-link"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a>{% endif %}
+        <a href="{{ base_path }}/files/Adrian_Enders_CV.pdf" class="profile-link" target="_blank"><i class="fa-solid fa-file-lines" aria-hidden="true"></i> CV</a>
+        {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" class="profile-link" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>{% endif %}
+        {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" class="profile-link" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>{% endif %}
       </div>
     </div>
   </div>
