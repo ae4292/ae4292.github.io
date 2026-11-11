@@ -13,8 +13,8 @@ The site will be available at `http://localhost:4000`.
 
 ## Structure
 
-- `_pages/` — standalone pages (About, Research, Projects, References)
-- `_publications/`, `_projects/`, `_talks/`, `_teaching/` — collection content, one file per entry
+- `_pages/` — standalone pages (About, Research, References)
+- `_publications/`, `_talks/`, `_teaching/` — collection content, one file per entry
 - `_data/navigation.yml` — header navigation links
 - `files/` — CV and other downloadable PDFs
 - `images/` — site images

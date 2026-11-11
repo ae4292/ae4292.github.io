@@ -65,8 +65,6 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-  projects:
-    title: 'Projects'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -186,9 +184,6 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  projects:
-    output: true
-    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -244,14 +239,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: single
-      author_profile: true
-      share: false
-      comment: false
   # _talks
   - scope:
       path: ""

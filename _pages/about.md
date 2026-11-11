@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Finance at [London Business School](https://www.london.edu/). My research interests include asset pricing, financial econometrics, causal inference, and corporate finance. My working papers are available on the [Research](/Research/) page.
+I am a PhD student in Finance at [London Business School](https://www.london.edu/). I am interested in financial econometrics and machine learning in finance. My working papers are available on the [Research](/Research/) page.
 
 Before my PhD, I was an Economist Apprentice at Amazon, where I collaborated with Amazon Scholars on forecasting research. I also evaluated seller policies using causal inference and built AI agents for economic analysis.
 
