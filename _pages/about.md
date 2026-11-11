@@ -32,7 +32,7 @@ Outside research, I enjoy cycling, cooking, and yoga. I previously rowed for Cal
 </div>
 
 <style>
-.education-list { margin: 0.4rem 0 1.5rem; }
+.education-list { margin: 0.4rem 0 1.5rem; max-width: 620px; }
 .education-item {
   display: flex;
   justify-content: space-between;
