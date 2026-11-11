@@ -1,0 +1,84 @@
+% Academic CV for Adrian Enders.
+% Build:  cd _cv && latexmk -pdf Adrian_Enders_CV.tex
+% Then copy the PDF to ../files/Adrian_Enders_CV.pdf (the path the website links to).
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage[hidelinks]{hyperref}
+
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Section headings: bold capitals with a thin rule (standard black-and-white CV style)
+\titleformat{\section}{\normalsize\bfseries}{}{0pt}{\MakeUppercase}[\vspace{1pt}\titlerule]
+\titlespacing*{\section}{0pt}{14pt}{6pt}
+
+\setlist[itemize]{leftmargin=1.2em, itemsep=1pt, topsep=2pt, parsep=0pt}
+
+% \entry{left}{right}: a row with a right-aligned date
+\newcommand{\entry}[2]{\begin{tabularx}{\textwidth}{@{}X r@{}}#1 & #2\end{tabularx}\par}
+
+\begin{document}
+
+{\centering
+  {\LARGE\bfseries Adrian Enders}\par\vspace{6pt}
+  London Business School, Regent's Park, London NW1 4SA, United Kingdom\par\vspace{2pt}
+  \href{mailto:aenders@london.edu}{aenders@london.edu}
+  \enspace$\cdot$\enspace \href{https://ae4292.github.io}{ae4292.github.io}
+  \enspace$\cdot$\enspace \href{https://github.com/ae4292}{GitHub}
+  \enspace$\cdot$\enspace \href{https://www.linkedin.com/in/adrian-enders-cal/}{LinkedIn}\par\vspace{2pt}
+  {\footnotesize Last updated: November 2026}\par
+}
+
+\section{Education}
+\entry{\textbf{London Business School}, Ph.D. in Finance}{2026 -- present}
+\vspace{4pt}
+\entry{\textbf{University of California, Berkeley}, Master of Analytics}{2024}
+\vspace{4pt}
+\entry{\textbf{University of California, Berkeley}, B.A. in Economics and Data Science}{2023}
+
+\section{Research Interests}
+Financial econometrics, machine learning in finance.
+
+\section{Working Papers}
+\textbf{Jump Comovement in Industry and Ownership Networks}\par
+Preliminary.
+\vspace{6pt}
+
+\textbf{A Comparative Analysis of Machine Learning Outlier Detection Methods for Robust Causal Inference}\par
+
+\section{Presentations}
+\entry{Pre-Doctoral Economics Conference, Yale University}{2026}
+
+\section{Awards}
+\entry{IEOR Merit Scholarship, UC Berkeley}{2023}
+\vspace{2pt}
+\entry{Persistence Award, Cal Men's Rowing}{2024}
+
+\section{Professional Experience}
+\entry{\textbf{Amazon}, Economist Apprentice, Seattle, WA}{2024 -- 2026}
+\begin{itemize}
+  \item Worked with Amazon Scholars on forecasting research, including Bayesian hierarchical and time-series foundation models for global sales.
+  \item Evaluated seller policies with causal inference methods, including double machine learning and Bayesian structural time series.
+  \item Built AI agents for economic analysis and data querying.
+\end{itemize}
+\vspace{4pt}
+\entry{\textbf{UC Berkeley}, Analytics Ambassador, Master of Analytics program}{2023 -- 2024}
+\vspace{4pt}
+\entry{\textbf{Andersen Tax}, Tax Associate Intern, San Mateo, CA}{2022}
+
+\section{Skills}
+\textbf{Programming:} Python (PyTorch, PyMC, scikit-learn, pandas), R, SQL, Git, AWS
+
+\section{Athletics}
+\entry{Cal Men's Rowing, national champions in 2022 and 2023}{2020 -- 2024}
+
+\end{document}
