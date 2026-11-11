@@ -1,9 +1,9 @@
-% Academic CV for Adrian Enders.
+% CV for Adrian Enders, laid out like the original Word version.
 % Build:  cd _cv && latexmk -pdf Adrian_Enders_CV.tex
 % Then copy the PDF to ../files/Adrian_Enders_CV.pdf (the path the website links to).
 \documentclass[11pt]{article}
 
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=0.75in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{mathptmx}
 \usepackage{microtype}
@@ -12,73 +12,55 @@
 \usepackage{tabularx}
 \usepackage[hidelinks]{hyperref}
 
-
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 
-% Section headings: bold capitals with a thin rule (standard black-and-white CV style)
+% Section headings: bold capitals over a full-width rule, as in the original
 \titleformat{\section}{\normalsize\bfseries}{}{0pt}{\MakeUppercase}[\vspace{1pt}\titlerule]
-\titlespacing*{\section}{0pt}{14pt}{6pt}
+\titlespacing*{\section}{0pt}{12pt}{6pt}
 
-\setlist[itemize]{leftmargin=1.2em, itemsep=1pt, topsep=2pt, parsep=0pt}
+\setlist[itemize]{leftmargin=2.2em, label=\textbullet, itemsep=0pt, topsep=1pt, parsep=0pt}
 
-% \entry{left}{right}: a row with a right-aligned date
+% \entry{left}{right}: a row with a right-aligned date or location
 \newcommand{\entry}[2]{\begin{tabularx}{\textwidth}{@{}X r@{}}#1 & #2\end{tabularx}\par}
+% \project{title}{status}{description}: bold title, italic status on the right, indented description
+\newcommand{\project}[3]{\entry{\textbf{#1}}{\textit{#2}}{\leftskip=2.2em #3\par}\vspace{3pt}}
 
 \begin{document}
 
 {\centering
-  {\LARGE\bfseries Adrian Enders}\par\vspace{6pt}
-  London Business School, Regent's Park, London NW1 4SA, United Kingdom\par\vspace{2pt}
-  \href{mailto:aenders@london.edu}{aenders@london.edu}
-  \enspace$\cdot$\enspace \href{https://ae4292.github.io}{ae4292.github.io}
-  \enspace$\cdot$\enspace \href{https://github.com/ae4292}{GitHub}
-  \enspace$\cdot$\enspace \href{https://www.linkedin.com/in/adrian-enders-cal/}{LinkedIn}\par\vspace{2pt}
-  {\footnotesize Last updated: November 2026}\par
+  {\LARGE\scshape Adrian Enders}\par\vspace{3pt}
+  London, UK \enspace|\enspace \href{mailto:aenders@london.edu}{aenders@london.edu} \enspace|\enspace \href{https://ae4292.github.io}{Webpage}\par
+  \href{https://github.com/ae4292}{GitHub} \enspace|\enspace \href{https://www.linkedin.com/in/adrian-enders-cal/}{LinkedIn}\par
 }
 
 \section{Education}
-\entry{\textbf{London Business School}, Ph.D. in Finance}{2026 -- present}
-\vspace{4pt}
-\entry{\textbf{University of California, Berkeley}, Master of Analytics}{2024}
-\vspace{4pt}
-\entry{\textbf{University of California, Berkeley}, B.A. in Economics and Data Science}{2023}
+\entry{\textbf{London Business School}}{Expected 2032}
+Ph.D. in Finance\par\vspace{3pt}
+\entry{\textbf{UC Berkeley}}{August 2023 -- August 2024}
+Master of Analytics, GPA: 3.77 (IEOR Merit Scholarship \$20k)\par\vspace{3pt}
+\entry{\textbf{UC Berkeley}}{June 2020 -- May 2023}
+Bachelor of Arts in Economics and Data Science, GPA: 3.60\par\vspace{3pt}
+\textbf{Relevant Coursework}: Financial Econometrics, Techniques of Data Science, Data Structures \& Algorithms, Design of Databases, Stochastic Processes, Asset Pricing \& Portfolio Choice, Risk Modeling.
 
-\section{Research Interests}
-Financial econometrics, machine learning in finance.
-
-\section{Working Papers}
-\textbf{Jump Comovement in Industry and Ownership Networks}\par
-Preliminary.
-\vspace{6pt}
-
-\textbf{A Comparative Analysis of Machine Learning Outlier Detection Methods for Robust Causal Inference}\par
-
-\section{Presentations}
-\entry{Pre-Doctoral Economics Conference, Yale University}{2026}
-
-\section{Awards}
-\entry{IEOR Merit Scholarship, UC Berkeley}{2023}
-\vspace{2pt}
-\entry{Persistence Award, Cal Men's Rowing}{2024}
-
-\section{Professional Experience}
-\entry{\textbf{Amazon}, Economist Apprentice, Seattle, WA}{2024 -- 2026}
+\section{Work Experience}
+\entry{\textbf{Amazon}}{June 2024 -- July 2026}
+\entry{\textbf{\textit{Economist Apprentice}}}{\textit{Seattle, WA}}
 \begin{itemize}
-  \item Worked with Amazon Scholars on forecasting research, including Bayesian hierarchical and time-series foundation models for global sales.
-  \item Evaluated seller policies with causal inference methods, including double machine learning and Bayesian structural time series.
-  \item Built AI agents for economic analysis and data querying.
+  \item Deployed an economic AI agent to automate analysis and data querying using credibility scoring techniques, which increased time efficiency by as much as 90\%.
+  \item Collaborated with Amazon Scholars on a prototype Bayesian hierarchical forecasting and time-series foundation model for global sales, achieving forecasting errors of 1\% or less.
+  \item Estimated causal impacts of +\$10MM to optimize regulatory initiatives implemented for worldwide sellers utilizing econometric methods such as double machine learning and Bayesian structural time series.
+  \item Personally managed ETL data pipelines for a worldwide product substitutability model.
 \end{itemize}
-\vspace{4pt}
-\entry{\textbf{UC Berkeley}, Analytics Ambassador, Master of Analytics program}{2023 -- 2024}
-\vspace{4pt}
-\entry{\textbf{Andersen Tax}, Tax Associate Intern, San Mateo, CA}{2022}
 
-\section{Skills}
-\textbf{Programming:} Python (PyTorch, PyMC, scikit-learn, pandas), R, SQL, Git, AWS
+\section{Research Projects}
+\project{Jump Comovement in Industry and Ownership Networks}{Preliminary}{Shows that residual negative price jumps are not independent across firms: a stock is more likely to jump in weeks when its industry peers do and, separately, when its nearest neighbors in a holdings-based embedding do.}
+\project{A Comparative Analysis of Machine Learning Outlier Detection Methods for Robust Causal Inference}{}{Presented at Yale Pre-Doctoral Economics Conference 2026. Compares novel outlier detection methods to reduce treatment effect bias. The models achieve over 90\% accuracy in outlier detection and accurate treatment effects after removing outliers.}
 
-\section{Athletics}
-\entry{Cal Men's Rowing, national champions in 2022 and 2023}{2020 -- 2024}
+\section{Skills \& Other}
+\textbf{Modeling}: Time-Series Forecasting, Foundational Models, Causal Inference (A/B Testing), Price Optimization\par\vspace{2pt}
+\textbf{Tech Stack}: Python (PyTorch, PyMC, scikit-learn, pandas), SQL, R, AWS, Git, Tableau\par\vspace{2pt}
+\textbf{Athletics}: Cal Men's Rowing (2020--2024), National Champions in 2022 and 2023, Persistence Award 2024.
 
 \end{document}
