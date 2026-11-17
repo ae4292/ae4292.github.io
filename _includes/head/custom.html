@@ -120,8 +120,22 @@ body {
   border-bottom: 1px solid var(--global-border-color);
 }
 
+/* Accessibility and consistency */
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0);
+  white-space: nowrap; border: 0;
+}
+.page__title { color: var(--global-base-color); }
+a:focus, button:focus, summary:focus { outline: 2px solid var(--global-base-color); outline-offset: 2px; }
+.greedy-nav button:focus-visible { outline: 2px solid #fff; outline-offset: -4px; }
+.page__footer-copyright { color: #4a5a70; font-size: 0.8rem; }
+
 /* Responsive */
 @media (max-width: 600px) {
+  body { background: #fff; }
   .profile-hero {
     flex-direction: column;
     align-items: center;
@@ -136,6 +150,9 @@ body {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+}
+@media (max-width: 400px) {
+  .greedy-nav a { margin: 0 0.55rem; font-size: 0.95rem; }
 }
 </style>
 
